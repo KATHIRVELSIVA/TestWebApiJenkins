@@ -1,7 +1,7 @@
 
 namespace WebApiJenkins
 {
-    public class Program
+    protected class Program
     {
         public static void Main(string[] args)
         {

@@ -49,7 +49,7 @@ namespace WebApiJenkins.Test
                 Location = null
             };
             var actionResult = controller.PostTeachers(newItem);
-            Assert.IsNotInstanceOf<BadRequest>(actionResult);
+            Assert.That(actionResult, Is.Not.InstanceOf<BadRequest>());
         }
     }
 }
