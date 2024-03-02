@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  webapijenkins:
+    build:
+      context: ./WebApiJenkins
+        #Api  Service
+        #Use the DockerFile in that Directory
+      dockerfile: Dockerfile
+    #Map port 8888 in the docker container to port 8080 in the Api
+    ports:
+      - "5001:8080"
+    restart: always
+    #Specify Environment Variables for the Api Service
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
