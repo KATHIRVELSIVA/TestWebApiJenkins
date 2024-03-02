@@ -30,3 +30,4 @@ D:\SKV\Codes\Jenkins\02032024\WebApiJenkins\obj\Debug\net8.0\refint\WebApiJenkin
 D:\SKV\Codes\Jenkins\02032024\WebApiJenkins\obj\Debug\net8.0\WebApiJenkins.pdb
 D:\SKV\Codes\Jenkins\02032024\WebApiJenkins\obj\Debug\net8.0\WebApiJenkins.genruntimeconfig.cache
 D:\SKV\Codes\Jenkins\02032024\WebApiJenkins\obj\Debug\net8.0\ref\WebApiJenkins.dll
+D:\SKV\Codes\Jenkins\02032024\WebApiJenkins\obj\Debug\net8.0\WebApiJenkins.sourcelink.json

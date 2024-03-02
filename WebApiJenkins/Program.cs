@@ -1,9 +1,9 @@
 
 namespace WebApiJenkins
 {
-    protected class Program
+    public class Program
     {
-        public static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
